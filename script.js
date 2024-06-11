@@ -19,8 +19,6 @@ function getEmail(event) {
     showEmailContainer.appendChild(newPara);
 
 
-
-
 }
 
 

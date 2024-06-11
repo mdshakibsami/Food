@@ -178,11 +178,16 @@ svg {
 
 }
 
+.food_card:hover {
+    transform: scale(1.05);
+
+}
+
 .food_card {
     position: relative;
     left: 100px;
     top: 30px;
-
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .fc_des_div {
@@ -223,6 +228,7 @@ svg {
     font-weight: 600;
     line-height: 21.94px;
 }
+
 /* Header content section ended */
 
 
@@ -300,85 +306,87 @@ svg {
 
 
 
-    
-/* Header content section started */
 
-.header_content {
-    margin: 10px;
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-}
+    /* Header content section started */
 
-.left_section_div {
-    width: fit-content
-}
+    .header_content {
+        margin: 10px;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
 
-.header_slogan h1 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 20px;
-    text-transform: uppercase;
-}
+    .left_section_div {
+        width: fit-content
+    }
 
-
-.dilevery_des {
-    margin: 30px 0px;
-    font-size: 18px;
-    width: 100%;
-    font-weight: 500;
-    line-height: 21.94px;
-    text-align: justify;
-
-}
-
-.order_div button {
-    padding: 15px 30px;
-    background: linear-gradient(180deg, #EFAB68 0%, #F48E28 100%);
-    border-radius: 15px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 31.69px;
-    color: white;
-    border: none;
-
-}
-
-.order_div img {
-    width: 60px;
-    height: 60px;
-}
+    .header_slogan h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
 
 
-.right_section_div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    .dilevery_des {
+        margin: 30px 0px;
+        font-size: 18px;
+        width: 100%;
+        font-weight: 500;
+        line-height: 21.94px;
+        text-align: justify;
 
-}
+    }
 
-.right_section_div {
-    margin-top: 30px;
+    .order_div button {
+        padding: 15px 30px;
+        background: linear-gradient(180deg, #EFAB68 0%, #F48E28 100%);
+        border-radius: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 31.69px;
+        color: white;
+        border: none;
 
-}
+    }
 
-.food_card {
-    position: relative;
-    left: 50px;
-    top: 30px;
+    .order_div img {
+        width: 60px;
+        height: 60px;
+    }
 
-}
 
-#food_card2{
-    top: 400px;
-}
-#food_card3{
-    top: 800px;
-}
-#food_card4{
-    top: 1200px;
-}
+    .right_section_div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .right_section_div {
+        margin-top: 30px;
+
+    }
+
+    .food_card {
+        position: relative;
+        left: 50px;
+        top: 30px;
+
+    }
+
+    #food_card2 {
+        top: 400px;
+    }
+
+    #food_card3 {
+        top: 800px;
+    }
+
+    #food_card4 {
+        top: 1200px;
+    }
 
 
 }

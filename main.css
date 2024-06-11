@@ -61,7 +61,7 @@
 
 .subscribe_des {
     padding: 40px;
-    
+
 }
 
 .subscribe_des1 {
@@ -216,10 +216,7 @@
 
 }
 
-/* .service_card_container:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-} */
+
 
 .service_card_container {
     display: flex;
@@ -285,10 +282,17 @@
 
 }
 
+.product_card:hover {
+    transform: scale(1.05);
+
+}
+
+
 .product_card {
     margin: 20px;
     box-shadow: 0px 2px 30px 0px #0000001A;
     border-radius: 35px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .product_card img {
@@ -336,7 +340,6 @@
     width: 25px;
     height: 25px;
 }
-
 
 
 
@@ -539,7 +542,7 @@
         background-color: #F48E28;
         transform: scale(1.05);
         color: white;
-    
+
     }
 
     .service_card_container {
