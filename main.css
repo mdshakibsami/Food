@@ -1,0 +1,248 @@
+/* Some information section started */
+.someInfo_section {
+    margin: 50px 60px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 31px 0px #0000000D;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.working_time {
+    text-align: center;
+    padding: 60px 100px;
+}
+
+#middle_info_div {
+    border-left: 2px solid #B6B6B6;
+    border-right: 2px solid #B6B6B6;
+}
+
+.info_img {
+    width: 40px;
+    height: 40px;
+}
+
+.info_img_r {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.info_des1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+
+}
+
+.info_des2 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.85px;
+
+}
+
+
+/* Some information section ended */
+
+
+
+
+/* Subscribe sesction started */
+
+.subscribe {
+    margin: 50px 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.subscribe_des {
+    padding: 40px;
+}
+
+.subscribe_des1 {
+    color: white;
+}
+
+.subscribe_des2 {
+    color: white;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+
+}
+
+.sub_img_div {
+    width: 1000px;
+    text-align: center;
+}
+
+.subscribe img {
+    width: 300px;
+    height: 300px;
+}
+
+.subscribe_email {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.subscribe_email input {
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 15px;
+
+}
+
+.subscribe_email h1 {
+    background-color: #F48E28;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 10px 20px;
+
+}
+
+/* Subscribe sesction ended */
+
+
+
+
+
+/* =========================================================   Responsive for ================================================================== */
+
+
+@media only screen and (max-width:660px) {
+    body {
+        margin: 10px;
+        padding: 0px;
+    }
+
+    /* Some information section started */
+    .someInfo_section {
+        margin: 1500px 10px;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 0px 31px 0px #0000000D;
+        border-radius: 50px;
+        padding: 5px;
+    }
+
+    .working_time {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    #middle_info_div {
+        border-left: 1px solid #B6B6B6;
+        border-right: 1px solid #B6B6B6;
+    }
+
+    .info_img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .info_img_r {
+        width: 20px;
+        height: 20px;
+    }
+
+    .info_des1 {
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 11.94px;
+
+    }
+
+    .info_des2 {
+        font-size: 6px;
+        font-weight: 400;
+        line-height: 10.85px;
+
+    }
+
+    /* Some information section ended */
+
+
+
+/* Subscribe sesction started */
+
+.subscribe {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.subscribe_des {
+    padding: 40px;
+}
+
+.subscribe_des1 {
+    color: white;
+}
+
+.subscribe_des2 {
+    color: white;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+
+}
+
+.sub_img_div {
+    width: fit-content;
+    text-align: center;
+}
+
+.subscribe img {
+    width: 300px;
+    height: 300px;
+}
+
+
+.subscribe_email {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+
+}
+
+.subscribe_email input {
+    border: none;
+    padding: 5px 15px;
+    font-size: 10px;
+    border-radius: 15px;
+
+}
+
+.subscribe_email h1 {
+    background-color: #F48E28;
+    color: white;
+    
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 0px 20px;
+
+}
+
+
+/* Subscribe sesction ended */
+
+
+
+
+
+}
