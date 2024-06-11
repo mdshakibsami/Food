@@ -200,10 +200,10 @@
             </div>
 
 
-            <div class="all_card_container">
+            <div id="all_product_card_container_id" class="all_card_container">
 
 
-                <div class="product_card">
+                <div id="single_product_card_id" class="product_card">
 
                     <div>
                         <img src="image/products/p1.png" alt="">
@@ -393,8 +393,8 @@
             </div>
 
 
-            <div class="see_more_products">
-                <button>See More Products </button>
+            <div onclick="showMoreProduct(event)" class="see_more_products">
+                <button id="button_title_id">See More Products </button>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                     stroke="currentColor" className="size-6">
                     <path strokeLinecap="round" strokeLinejoin="round"
@@ -436,7 +436,7 @@
 
             <div class="service_card_container">
 
-                <div class="single_card">
+                <div class="single_card" class="forHover">
                     <img src="image/servise/spoon.png" alt="">
 
                     <h1 class="service_title">Qualityfull Food</h1>
@@ -444,6 +444,7 @@
                         mistaken idea of denouncing pleasur and
                         prasising pain was bron.</h1>
                 </div>
+
                 <div class="single_card">
                     <img src="image/servise/frok.png" alt="">
 
@@ -452,6 +453,7 @@
                         mistaken idea of denouncing pleasur and
                         prasising pain was bron.</h1>
                 </div>
+
                 <div class="single_card">
                     <img src="image/servise/delivery.png" alt="">
 
@@ -534,10 +536,17 @@
                     latest trends and
                     insights!"</h1>
 
-                <div class="subscribe_email">
-                    <input class=type="text" placeholder="Enter your email...">
-                    <h1>Subscribe</h1>
-                </div>
+                <form onsubmit="getEmail(event)">
+                    <div class="subscribe_email">
+                        <input type="email" name="email" required placeholder="Enter your email...">
+                        <button type="submit" class="submit_button">Subscribe</button>
+                    </div>
+
+                    <div  id="showEmail" style="color: white;">
+                    
+                    </div>
+                </form>
+                
 
 
             </div>
@@ -622,6 +631,9 @@
         </section>
     </footer>
 
+
+    <!-- js -->
+     <script src="script.js"></script>
 </body>
 
 
